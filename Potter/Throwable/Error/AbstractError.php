@@ -2,14 +2,11 @@
 
 namespace Potter\Throwable\Error;
 
-use Potter\Throwable\{
-    ThrowableInterface,
-    ThrowableTrait
-};
+use Potter\Throwable\ThrowableTrait;
 
 use \Error;
 
-abstract class AbstractError extends Error implements ThrowableInterface
+abstract class AbstractError extends Error implements ErrorInterface
 {
     use ThrowableTrait;
 }
