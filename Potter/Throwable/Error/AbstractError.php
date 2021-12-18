@@ -1,6 +1,11 @@
 <?php
 
-namespace Potter\Throwable;
+namespace Potter\Throwable\Error;
+
+use Potter\Throwable\{
+    ThrowableInterface,
+    ThrowableTrait
+};
 
 use \Error;
 
