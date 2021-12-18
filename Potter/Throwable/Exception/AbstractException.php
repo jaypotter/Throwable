@@ -6,7 +6,7 @@ use Potter\Throwable\ThrowableTrait;
 
 use \Exception;
 
-abstract class AbstractException extends Exception implements ThrowableInterface
+abstract class AbstractException extends Exception implements ExceptionInterface
 {
     use ThrowableTrait;
 }
