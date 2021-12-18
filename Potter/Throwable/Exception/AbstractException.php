@@ -2,10 +2,7 @@
 
 namespace Potter\Throwable\Exception;
 
-use Potter\Throwable\{
-    ThrowableInterface,
-    ThrowableTrait
-};
+use Potter\Throwable\ThrowableTrait;
 
 use \Exception;
 
