@@ -2,7 +2,10 @@
 
 namespace Potter\Throwable\Error;
 
-use Potter\Throwable\ThrowableTrait;
+use Potter\Throwable\{
+    ThrowableInterface,
+    ThrowableTrait
+};
 
 use \Error;
 
