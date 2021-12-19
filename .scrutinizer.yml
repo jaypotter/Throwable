@@ -5,3 +5,5 @@ build:
         override:
           - php-scrutinizer-run
           - phpcs-run
+checks:
+    php: true
